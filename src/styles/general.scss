@@ -1,0 +1,39 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url("@/assets/fonts/NetflixSans-Regular.woff2");
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+html {
+    font-family: 'Neflix Sans', 'Bebas Neue';
+}
+
+.hidden {
+    display: none;
+}
+.alert-not-found {
+    color: #e50914;
+    font-style: italic;
+}
+.inf {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 3px 0;
+    display: block;
+}
+
+::placeholder {
+    color: black;
+}
